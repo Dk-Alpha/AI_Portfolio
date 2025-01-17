@@ -1,4 +1,5 @@
 ollama
 streamlit
+streamlit-card
 numpy
 pandas
