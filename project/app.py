@@ -47,6 +47,10 @@ about_me=st.Page(
     title="About Me",
     default=True
 )
+stats=st.Page(
+    page="stats.py",
+    title="My Statistics"
+)
 ask_ai=st.Page(
     page="ask_ai.py",
     title="Ask Victor"
@@ -55,7 +59,7 @@ ask_ai=st.Page(
 #NAVIGATION SETUP
 pg=st.navigation(
     {
-        "Pages":[about_me,ask_ai]
+        "Pages":[about_me,stats,ask_ai]
     }
 )
 pg.run()
