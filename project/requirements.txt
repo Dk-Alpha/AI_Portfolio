@@ -1,5 +1,7 @@
 ollama
 streamlit
 streamlit-card
+plotly
+seaborn
 numpy
 pandas
