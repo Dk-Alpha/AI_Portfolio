@@ -20,13 +20,13 @@ with st.container():
             if st.button("Connect Here"):
                 show_connection_form()
 
-st.subheader("Motivation for Choosing my Career Path")
+st.subheader("Motivation for Choosing my Career Path", divider=True)
 st.write("""
 During my formative years in school, my active engagement in social work programs exposed me to the stark realities of individuals battling chronic diseases, grappling with the harsh challenge of securing a single meal. Witnessing the poignant struggles of those afflicted by relentless illnesses, particularly cancer, left an indelible impact on me, sparking a deep sense of empathy and a profound desire to contribute meaningfully. This reflection prompted profound introspection, leading me to question: What could I do to alleviate their suffering? It was during this contemplation that my interest in Artificial Intelligence (AI) and its transformative potential burgeoned.
  The prospect of employing technology to reanimate non-functional parts of the human body, offering the possibility for paralyzed individuals to regain mobility by rejuvenating dormant nerve cells, fuelled my curiosity. The untapped potential of AI resonated with the conviction that it could unlock concealed realms within the human brain, catapulting cognitive abilities to unprecedented heights. This revelation became particularly poignant as I contemplated its potential role in not only healing but also eradicating cancer cells within the human body. 
 Embarking on the journey to pursue an undergraduate program in Computer Science was not just a choice; it was a culmination of early fascination coupled with a discerning observation of the field's meteoric rise and unwavering confidence in its future prospects.
 """)
-st.subheader("Studies")
+st.subheader("Studies",divider=True)
 st.markdown("#### Bachelor of Technology in Computer Science and Engineering", unsafe_allow_html=True)
 st.write("""
 Indus University, Ahmedabad, India
@@ -64,7 +64,7 @@ Looking back, the journey has been anything but easy. Yet, each step—from leav
 
 #Work Experience
 
-st.subheader("Work Experience")
+st.subheader("Work Experience", divider=True)
 st.write("""
 Ahmedabad, India <nbsp>
 

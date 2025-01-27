@@ -6,7 +6,7 @@ import chat_engine
 
 st.title("My Statistics")
 
-st.header("Undergraduate Studies")
+st.header("Undergraduate Studies", divider=True)
 #callables
 def show_sem_bar(data,semester):
     # Give entire data  [ "mydata" in my case ] as input and the semester values "Semester 1"
@@ -58,7 +58,7 @@ For example, if the plot is about sales over several years, you could recommend 
         instructions="""Analyze the data plot information below and provide key highlights: \n Subject name: {} \n Respective Scores: {} \n Extra data: {}""".format(subject,score,extra_data)
     elif type=="g": #this is for grad
         instructions="""Analyze the data plot information below and provide key highlights: \n Subject name: {} \n Respective Scores: {} \n Extra data with grades for each subject: {}""".format(subject,score,extra_data)
-    resp=chat_engine.generate_response(inp=sys+instructions, sys=sys)
+    resp=chat_engine.generate_response(inp=sys+instructions)
     st.write(resp)
 
 def show_sem_bar_grad(data,semester):
@@ -126,7 +126,7 @@ with st.container():
         st.write("Victor is Generating Insights:")
         generate_insight(insight_data[0],insight_data[1],insight_data[2])
 
-st.header("Graduate Studies")
+st.header("Graduate Studies", divider=True)
 mygraddata=pd.read_csv("project\docs\All_Semesters_Results_Grad.csv")
 st.write(mydata.head())
 

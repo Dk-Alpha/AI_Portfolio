@@ -1,6 +1,7 @@
 ollama
 streamlit
 streamlit-card
+streamlit_extras
 plotly
 seaborn
 numpy
