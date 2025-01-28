@@ -4,6 +4,7 @@ st.title("Ask VICTOR")
 
 #I am using Session state for maintaining chat history. No other option
 if "messages" not in st.session_state:
+    st.toast("Note: I am still working on the chat bot to provide full fledged information and each and every single detail of my projects and folios. STILL WORKING")
     st.session_state.messages = []  # List to store message history
 
 # Welcome message from Victor

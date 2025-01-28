@@ -1,0 +1,33 @@
+Dhruval Patel
+Master of Computer and Information Sciences | University of Texas at Dallas
+Passionate about Machine Learning, Data Science, and AI
+LinkedIn | GitHub | Publications
+Education
+Master of Computer and Information Sciences, University of Texas at Dallas, GPA: 3.33 (Aug 2024 - May 2026)
+Bachelor of Technology in Computer Science and Engineering, Indus University, GPA: 9.84/10 (Oct 2020 – Apr 2024)
+Professional Experience
+Computer Science Outreach Instructor | University of Texas at Dallas
+Taught Python and problem-solving to 50+ students, organized conferences and networking events. 🎓
+
+Machine Learning Research Intern | ISRO
+Developed models for ocean chlorophyll prediction, achieving 95% improved accuracy using ML techniques. 🚀
+
+Data Science Intern | Maxgen Technologies
+Applied ML techniques to real-world projects, improving accuracy by 15% on a house price prediction project. 💻
+Projects
+LeetCode Data Scraper
+Automated problem data collection using Python and Selenium for easier analysis and reference. 📊
+
+Story Generation from Images
+Developed an NLP-based tool to generate coherent stories from multiple image inputs. 📖
+
+Heart Failure Prediction
+Built ML models achieving 90% accuracy, published in a Web of Science journal. 🩺
+Skills
+Programming: Python, SQL, Git, Streamlit
+Technologies: Machine Learning, Data Visualization, Big Data Handling, Generative AI
+Soft Skills: Teamwork, Communication, Leadership, Social Contribution
+Certifications
+Diploma in Multi-Lingual Programming, C-DAC
+Advanced PHP, C-DAC
+Online Courses: IBM Data Analytics, AWS NLP, Google IT Security

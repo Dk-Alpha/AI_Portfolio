@@ -4,3 +4,7 @@ import ollama
 def generate_response(inp):
     resp=ollama.generate(model="victor", prompt=inp)
     return resp["response"]
+
+def generate_stream_response(inp):
+    resp=ollama.generate(model="victor",prompt=inp,stream=True)
+    return resp["response"]

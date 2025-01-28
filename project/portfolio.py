@@ -1,5 +1,7 @@
 import streamlit as st
 from streamlit_extras.let_it_rain import rain
+from annotated_text import annotated_text
+import chat_engine
 # Configure the page
 st.set_page_config(page_title="Dhruval Patel's Portfolio", layout="wide")
 
@@ -82,3 +84,18 @@ st.markdown("""
 - Advanced PHP, C-DAC<br>
 - Online Courses: IBM Data Analytics, AWS NLP, Google IT Security<br>
 """, unsafe_allow_html=True)
+
+
+#Sidebar
+## Ask here
+pfolio=open(r"project/docs/portfolio_plain_text.txt","r").read()
+with st.sidebar:
+    with st.container():
+        col1,col2=st.columns([0.3,0.7], gap="small",vertical_alignment="center")
+        with col1:
+          st.image("project/images/current_page.png")
+        with col2:
+          st.write("Portfolio")
+    if st.button("Get portfolio Summary"):
+      resp=chat_engine.generate_response("Give me the summary of {pfolio}")
+      st.write(resp)
