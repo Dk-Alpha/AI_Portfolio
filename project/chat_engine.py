@@ -99,4 +99,6 @@ def download_model():
         st.success(f"✅ Model {model_name} is ready!")
         # st.success(f"Model {model_name} llama is ready!")
     except Exception as e:
-        st.error(f"Error downloading model: {e}")
+        st.error("Feature Disabled!")
+        st.toast("Sorry but currently the AI feature is disabled as It has been hosted on a server less platform")
+        # st.error(f"Error downloading model: {e}")
